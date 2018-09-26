@@ -16,14 +16,21 @@
 
 //Write a separate program that creates three Customer objects by entering the fields for each object from the keyboard.
 
-package burt_c_11;
 
+package burt_C_11;
 
-public class Burt_C_11 
+public class Burt_C_11
 {
+       
+    public static void main(String[] args)
+    {
         
-    public static void main(String[] args) {
-        // TODO code application logic here
+        Customer cust = new Customer();
+        cust.setLastName("Jones");
+        cust.setFirstName("Bob");
+        
+        System.out.print("This customer is ");
+        System.out.println(cust.getFirstName() + " " + cust.getLastName());
     }
     
 }
