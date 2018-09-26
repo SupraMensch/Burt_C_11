@@ -26,11 +26,11 @@ public class Burt_C_11
     {
         
         Customer cust = new Customer();
-        cust.setLastName("Jones");
-        cust.setFirstName("Bob");
+        cust.setCustName("Jones");
+        cust.setCustomerID("Bob");
         
         System.out.print("This customer is ");
-        System.out.println(cust.getFirstName() + " " + cust.getLastName());
+        System.out.println(cust.getcustName() + " " + cust.getcustomerID());
     }
     
 }

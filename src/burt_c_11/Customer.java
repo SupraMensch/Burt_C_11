@@ -1,9 +1,27 @@
+// Christopher Burt
+// Project # 11
+
+//Write a Customer class that contains the following fields:
+
+//- Name
+//- Customer ID
+//- Address
+//- Phone Number
+
+//The class should have two constructors:
+//- A no-arg constructor that sets the fields to empty strings ("")
+//- A constructor that accepts the four fields as arguments and assigns them to their appropriate fields in the class
+
+//Write appropriate mutator methods to store values in the fields and accessor methods to return the values in the fields.
+
+//Write a separate program that creates three Customer objects by entering the fields for each object from the keyboard.
+
 package burt_C_11;
 
 public class Customer
 {
-    private String lastName;
-    private String firstName;
+    private String custName;
+    private String customerID;
     private String address;
     private String phoneNumber;
    
@@ -11,41 +29,41 @@ public class Customer
     
     public Customer() 
     {
-        lastName = "";
-        firstName = "";
+        custName = "";
+        customerID = "";
         address = "";
         phoneNumber = "";
     }
     
     public Customer(Customer c) 
     {
-        lastName = new String(c.lastName);
-        firstName = new String(c.firstName);
+        custName = new String(c.custName);
+        customerID = new String(c.customerID);
         address = new String(c.address);
         phoneNumber = new String(c.phoneNumber);
     }
 
-    public Customer(String ln, String fn)
+    public Customer(String cun, String cid)
     {
-        lastName = ln;
-        firstName = fn;
+        custName = cun;
+        customerID = cid;
         address = "";
         phoneNumber = "";
     }
 
-    public Customer(String ln, String fn, String ad, String pn) {
-        lastName = ln;
-        firstName = fn;
+    public Customer(String cun, String cid, String ad, String pn) {
+        custName = cun;
+        customerID = cid;
         address = ad;
         phoneNumber = pn;
     }
     
-    public String getLastName() {
-        return lastName;
+    public String getcustName() {
+        return custName;
     }
     
-    public String getFirstName() {
-        return firstName;
+    public String getcustomerID() {
+        return customerID;
     }
     
     public String getAddress() {
@@ -56,12 +74,12 @@ public class Customer
         return phoneNumber;
     }
     
-    public void setLastName(String ln) {
-        lastName = ln;
+    public void setCustName(String cun) {
+        custName = cun;
     }
     
-    public void setFirstName(String fn) {
-        firstName = fn;
+    public void setCustomerID(String cid) {
+        customerID = cid;
     }
     
     public void setAddress(String ad) {
