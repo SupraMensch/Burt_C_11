@@ -26,8 +26,10 @@ public class Burt_C_11
     {
         
         Customer cust = new Customer();
-        cust.setCustName("Jones");
-        cust.setCustomerID("Bob");
+        cust.setCustName("");
+        cust.setCustomerID("");
+        cust.setAddress("");
+        cust.setPhoneNumber("");
         
         System.out.print("This customer is ");
         System.out.println(cust.getcustName() + " " + cust.getcustomerID());
