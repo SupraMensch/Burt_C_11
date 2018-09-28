@@ -24,9 +24,7 @@ public class Customer
     private String customerID;
     private String address;
     private String phoneNumber;
-   
-
-    
+         
     public Customer() 
     {
         custName = "";
