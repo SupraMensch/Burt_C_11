@@ -33,13 +33,13 @@ public class Customer
         phoneNumber = "";
     }
     
-    public Customer(Customer c) 
-    {
-        custName = new String(c.custName);
-        customerID = new String(c.customerID);
-        address = new String(c.address);
-        phoneNumber = new String(c.phoneNumber);
-    }
+    //public Customer(Customer c) 
+    //{
+     //   custName = new String(c.custName);
+       // customerID = new String(c.customerID);
+        //address = new String(c.address);
+        //phoneNumber = new String(c.phoneNumber);
+    //}
 
     public Customer(String cun, String cid)
     {
@@ -49,42 +49,51 @@ public class Customer
         phoneNumber = "";
     }
 
-    public Customer(String cun, String cid, String ad, String pn) {
+    public Customer(String cun, String cid, String ad, String pn)
+    {
         custName = cun;
         customerID = cid;
         address = ad;
         phoneNumber = pn;
     }
     
-    public String getcustName() {
+    public String getcustName() 
+    {
         return custName;
     }
     
-    public String getcustomerID() {
+    public String getcustomerID() 
+    {
         return customerID;
     }
     
-    public String getAddress() {
+    public String getAddress()
+    {
         return address;
     }
     
-    public String getPhoneNumber() {
+    public String getPhoneNumber() 
+    {
         return phoneNumber;
     }
     
-    public void setCustName(String cun) {
+    public void setCustName(String cun) 
+    {
         custName = cun;
     }
     
-    public void setCustomerID(String cid) {
+    public void setCustomerID(String cid)
+    {
         customerID = cid;
     }
     
-    public void setAddress(String ad) {
+    public void setAddress(String ad)
+    {
         address = ad;
     }
     
-    public void setPhoneNumber(String pn) {
+    public void setPhoneNumber(String pn)
+    {
         phoneNumber = pn;
     }
 }

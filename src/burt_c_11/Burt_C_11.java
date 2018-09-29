@@ -8,7 +8,7 @@
 //- Address
 //- Phone Number
 
-//The class should have two constructors:
+// The class should have two constructors:
 //- A no-arg constructor that sets the fields to empty strings ("")
 //- A constructor that accepts the four fields as arguments and assigns them to their appropriate fields in the class
 
