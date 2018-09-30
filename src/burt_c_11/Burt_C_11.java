@@ -26,13 +26,38 @@ public class Burt_C_11
     {
         
         Customer cust = new Customer();
-        cust.setCustName("");
-        cust.setCustomerID("");
-        cust.setAddress("");
-        cust.setPhoneNumber("");
+        cust.setCustName("John adams");
+        cust.setCustomerID("135");
+        cust.setAddress("500 washington Avenue");
+        cust.setPhoneNumber("3182647789");
         
-        System.out.print("This customer is ");
-        System.out.println(cust.getcustName() + " " + cust.getcustomerID());
+        Customer cust2 = new Customer();
+        cust2.setCustName("John Jenkins");
+        cust2.setCustomerID("139");
+        cust2.setAddress("500 Apple Avenue");
+        cust2.setPhoneNumber("3182647786");
+        
+        Customer cust3 = new Customer();
+        cust3.setCustName("Jerry Stephens");
+        cust3.setCustomerID("142");
+        cust3.setAddress("503 Parker St");
+        cust3.setPhoneNumber("3182797769");
+        
+                
+        System.out.print("The first customer's information is ");
+        System.out.println(cust.getcustName() + " Customer ID: " + cust.getcustomerID());
+        System.out.print("The customer's address and phone number: ");
+        System.out.println(cust.getAddress() + " Phone Number: " + cust.getPhoneNumber() + "\n");
+        
+        System.out.print("The second customer's information is ");
+        System.out.println(cust2.getcustName() + " Customer ID: " + cust2.getcustomerID());
+        System.out.print("The customer's address and phone number: ");
+        System.out.println(cust2.getAddress() + " Phone Number: " + cust2.getPhoneNumber() + "\n");
+        
+        System.out.print("The third customer's information is ");
+        System.out.println(cust3.getcustName() + " Customer ID: " + cust3.getcustomerID());
+        System.out.print("The customer's address and phone number: ");
+        System.out.println(cust3.getAddress() + " Phone Number: " + cust3.getPhoneNumber());
     }
     
 }

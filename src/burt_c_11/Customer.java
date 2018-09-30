@@ -33,13 +33,13 @@ public class Customer
         phoneNumber = "";
     }
     
-    //public Customer(Customer c) 
-    //{
-     //   custName = new String(c.custName);
-       // customerID = new String(c.customerID);
-        //address = new String(c.address);
-        //phoneNumber = new String(c.phoneNumber);
-    //}
+    public Customer(Customer c) 
+    {
+        custName = new String(c.custName);
+        customerID = new String(c.customerID);
+        address = new String(c.address);
+        phoneNumber = new String(c.phoneNumber);
+    }
 
     public Customer(String cun, String cid)
     {
