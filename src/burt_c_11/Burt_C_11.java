@@ -21,22 +21,26 @@ package burt_C_11;
 
 public class Burt_C_11
 {
-       
+    //  Main method demonstrates class's function   
     public static void main(String[] args)
     {
         
+        //Customer object 1
         Customer cust = new Customer();
         cust.setCustName("John adams");
         cust.setCustomerID("135");
         cust.setAddress("500 washington Avenue");
         cust.setPhoneNumber("3182647789");
         
+        
+        //Customer object 2
         Customer cust2 = new Customer();
         cust2.setCustName("John Jenkins");
         cust2.setCustomerID("139");
         cust2.setAddress("500 Apple Avenue");
         cust2.setPhoneNumber("3182647786");
         
+        //Customer object 3
         Customer cust3 = new Customer();
         cust3.setCustName("Jerry Stephens");
         cust3.setCustomerID("142");

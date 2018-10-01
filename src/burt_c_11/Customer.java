@@ -20,11 +20,13 @@ package burt_C_11;
 
 public class Customer
 {
+    // private variable declarations
     private String custName;
     private String customerID;
     private String address;
     private String phoneNumber;
-         
+    
+    //  No-arg constructor setting fields to empty strings
     public Customer() 
     {
         custName = "";
@@ -33,6 +35,7 @@ public class Customer
         phoneNumber = "";
     }
     
+    //  Constructors
     public Customer(Customer c) 
     {
         custName = new String(c.custName);
@@ -49,6 +52,7 @@ public class Customer
         phoneNumber = "";
     }
 
+    // assigning fields with arguments
     public Customer(String cun, String cid, String ad, String pn)
     {
         custName = cun;
@@ -57,25 +61,30 @@ public class Customer
         phoneNumber = pn;
     }
     
+    //  accessor method
     public String getcustName() 
     {
         return custName;
     }
     
+    // accessor method
     public String getcustomerID() 
     {
         return customerID;
     }
     
+    //  accessor method
     public String getAddress()
     {
         return address;
     }
     
+    //  accessor method
     public String getPhoneNumber() 
     {
         return phoneNumber;
     }
+    
     
     public void setCustName(String cun) 
     {
